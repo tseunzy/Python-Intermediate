@@ -17,9 +17,19 @@
     Enumerate: Add index counter to iteration
 
 **Error handling (try/except/finally)**
+    try: Code that might raise exceptions
+    except: Handle specific exceptions
+    else: Run if no exception occurred
+    finally: Always execute (cleanup code)
+    raise: Manually trigger exceptions
 
- 
+**File handling (Read/Write)**
+    File Modes: r (read), w (write), a (append), b (binary)
+    Context Managers: with open() as file: (auto-closes)
+    Reading Methods: read(), readline(), readlines()
+    Writing Methods: write(), writelines()
+    File Positioning: seek(), tell()
 
-**with a project/**
-
+**Project/**
+    A Banking System
 
